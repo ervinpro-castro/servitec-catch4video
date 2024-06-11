@@ -5,6 +5,7 @@ def download_youtube_video(url, save_path, resolution, file_type):
     stream = yt.streams.filter(resolution=resolution, file_extension=file_type).first()
     stream.download(save_path)
 
+print(".....................................................")
 url = input("Enter the YouTube video URL: ")
 save_path = input("Enter the save path: ")
 resolution = input("Enter the resolution (e.g. 1080p, 720p, 480p): ")
