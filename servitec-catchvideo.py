@@ -10,5 +10,6 @@ url = input("Enter the YouTube video URL: ")
 save_path = input("Enter the save path: ")
 resolution = input("Enter the resolution (e.g. 1080p, 720p, 480p): ")
 file_type = input("Enter the file type (e.g. mp4, webm): ")
-
+print(".....................................................")
+print("note:")
 download_youtube_video(url, save_path, resolution, file_type)
